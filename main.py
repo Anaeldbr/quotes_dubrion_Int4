@@ -17,7 +17,9 @@ def main():
             print_quote(random_quote(quotes))
         elif choice == "2":
             view_quotes(quotes)
-        elif choice == "3":
+        elif choice =="3":
+            add_quotes(quotes,filename)
+        elif choice == "4":
             print("Good bye...")
             break
         else:
